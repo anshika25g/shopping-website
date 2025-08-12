@@ -1,0 +1,199 @@
+
+/*-----NAVIGATION BAR--------------*/
+.NAVBAR{
+    background-color: BLACK;
+    border-radius: 30PX;
+}
+.NAVBAR LI {
+    FLOAT: LEFT;
+    list-style: none;
+    MARGIN: 13PX 20PX;  
+}
+.NAVBAR IMG {
+    FLOAT: LEFT;
+    list-style: none;
+    MARGIN: 10PX 15PX; 
+    BORDER-RADIUS: 50%;
+}
+.NAVBAR UL{
+    OVERFLOW: AUTO;
+}
+.NAVBAR LI A {
+    PADDING: 3PX 3PX;
+    TEXT-DECORATION:NONE;
+    COLOR: WHITE;
+    font-weight: bold;
+}
+.SEARCH{
+    PADDING: 12PX 75PX;
+    FLOAT:RIGHT;
+    COLOR:WHITE;
+}
+ .NAVBAR  INPUT {
+    BORDER: 2PX SOLID BLACK;
+    border-radius: 4X;
+    PADDING: 3PX 17PX;
+ }
+
+ .SEARCH A {
+    PADDING: 3PX 3PX;
+    TEXT-DECORATION:NONE;
+    COLOR: WHITE;
+    font-weight: bold;
+    FONT-SIZE: LARGE;
+}
+.SEARCH A IMG  {
+    FLOAT: RIGHT;
+    list-style: none;
+    MARGIN: 10PX 15PX; 
+}
+
+
+
+ /*-------MARQUEE TAG-----*/
+ .MARQUEE {
+    background-color: #82eef6;
+    .SEARCH A {
+        PADDING: 3PX 3PX;
+        TEXT-DECORATION:NONE;
+        COLOR: WHITE;
+        font-weight: bold;
+        FONT-SIZE: LARGE;
+    }
+ }
+.MARQUEE UL{
+    OVERFLOW:AUTO;
+}
+.MARQUEE LI{
+    FLOAT: RIGHT;
+    list-style: NONE ;
+    MARGIN: 5PX 15PX;
+    TEXT-DECORATION:NONE;
+    COLOR: BLACK;
+    font-weight: bold; 
+}
+
+
+
+
+
+/*---------DESCRIPTION MAIN PARA -------------*/
+.hero {
+    background: url(' https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjE4YmF0Y2g5LW15bnQtMDEuanBn.jpg ') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+.btn {
+    background: #f4b942;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* -------------MAIN ITEMS PRODUCTS----------------*/
+
+.products {
+    padding: 2rem 1rem;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.product-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    background: #f4f4f4;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+    width: 300px;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-item h3 {
+    margin: 1rem 0;
+}
+
+.product-item p {
+    color: #f4b942;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    background: #f4b942;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*-------------------FOOTER-----------------*/
+.footer {
+    background-color: #0fe2ea;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer .footer-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer .footer-info p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer .footer-social {
+    text-align: center;
+}
+
+.footer .footer-social .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer .footer-social img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .header .nav ul {
+        flex-direction: column;
+    }
+
+    .header .nav a {
+        margin-bottom: 10px;
+    }
+}

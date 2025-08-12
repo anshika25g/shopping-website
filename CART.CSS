@@ -1,0 +1,143 @@
+
+/*-----NAVIGATION BAR--------------*/
+.NAVBAR{
+    background-color: BLACK;
+    border-radius: 30PX;
+}
+.NAVBAR LI {
+    FLOAT: LEFT;
+    list-style: none;
+    MARGIN: 13PX 20PX;  
+}
+.NAVBAR IMG {
+    FLOAT: LEFT;
+    list-style: none;
+    MARGIN: 10PX 15PX; 
+    BORDER-RADIUS: 50%;
+}
+.NAVBAR UL{
+    OVERFLOW: AUTO;
+}
+.NAVBAR LI A {
+    PADDING: 3PX 3PX;
+    TEXT-DECORATION:NONE;
+    COLOR: WHITE;
+    font-weight: bold;
+}
+.SEARCH{
+    PADDING: 12PX 75PX;
+    FLOAT:RIGHT;
+    COLOR:WHITE;
+}
+ .NAVBAR  INPUT {
+    BORDER: 2PX SOLID BLACK;
+    border-radius: 4X;
+    PADDING: 3PX 17PX;
+ }
+
+ .SEARCH A {
+    PADDING: 3PX 3PX;
+    TEXT-DECORATION:NONE;
+    COLOR: WHITE;
+    font-weight: bold;
+    FONT-SIZE: LARGE;
+}
+.SEARCH A IMG  {
+    FLOAT: RIGHT;
+    list-style: none;
+    MARGIN: 10PX 15PX; 
+}
+
+
+/*----CART ITEMS----*/
+.CART-PAGE{
+    MARGIN: 80PX AUTO;
+}
+TABLE{
+    WIDTH: 100%;
+    BORDER-COLLAPASE: COLLAPSE;
+}
+TH{
+    TEXT-ALIGN: LEFT;
+    PADDING: 5PX;
+    COLOR: #FFF;
+    BACKGROUND: #b5a7da;
+    FONT-WEIGHT: NORMAL;
+}
+TD{
+    PADDING: 10PX 5PX;
+}
+TD INPUT{
+    WIDTH: 40PX;
+    HEIGHT:30PX;
+    PADDING:5PX;
+    
+}
+
+
+
+
+
+.TOTALPRICE{
+    DISPLAY:FLEX;
+    JUSTIFY-CONTENT: FLEX-END;
+
+}
+.TOTALPRICE TABLE{
+    BORDER-TOP: 3PX SOLID AQUA;
+    WIDTH: 100%;
+    MAX-WIDTH: 420PX;
+}
+TD:LAST-CHILD{
+    TEXT-ALIGN:RIGHT;
+}
+TH:LAST-CHILD{
+    TEXT-ALIGN:RIGHT;
+}
+
+   
+
+
+/*-------------------FOOTER-----------------*/
+.footer {
+    background-color: #0fe2ea;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer .footer-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer .footer-info p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer .footer-social {
+    text-align: center;
+}
+
+.footer .footer-social .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer .footer-social img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .header .nav ul {
+        flex-direction: column;
+    }
+
+    .header .nav a {
+        margin-bottom: 10px;
+    }
+}
